@@ -18,6 +18,28 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>footerText</key>
+			<string>Adjust Height of the SwipeRecognizer</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>150</integer> <!-- Default value of the slider -->
+			<key>defaults</key>
+			<string>/Users/midnightchip/Documents/Dev/MotusPref/prefs/entry</string> <!-- Path to your Entry.plist (WithoutExtension) -->
+			<key>key</key>
+			<string>kHeight</string> <!-- Your key name here -->
+			<key>max</key>
+			<real>300</real> <!-- Enter your maximum value here -->
+			<key>min</key>
+			<real>10</real> <!-- Enter your minimum value here -->
+			<key>showValue</key> <!-- Show the value of the slider. true or false. -->
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
 			<string>Adjust Width of the SwipeRecognizer</string>
 		</dict>
 		<!--<dict>
@@ -42,7 +64,7 @@
 			<key>key</key>
 			<string>kWidth</string> <!-- Your key name here -->
 			<key>max</key>
-			<real>30</real> <!-- Enter your maximum value here -->
+			<real>100</real> <!-- Enter your maximum value here -->
 			<key>min</key>
 			<real>10</real> <!-- Enter your minimum value here -->
 			<key>showValue</key> <!-- Show the value of the slider. true or false. -->
