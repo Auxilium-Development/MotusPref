@@ -80,14 +80,15 @@ static void RespringDevice()
 -(void)applicationDidFinishLaunching:(id)application {
     float setNewWidth = GetPrefFloat(@"kWidth");
     float setNewAlpha = GetPrefFloat(@"kAlpha");
+    float setNewHeight = GetPrefFloat(@"kHeight");
 	UIWindow * screen = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen]bounds]];
 
-	CHMotusView * rightView=[[CHMotusView alloc]initWithFrame:CGRectMake(screen.bounds.size.width, screen.bounds.size.height, - setNewWidth, - 150)];
+	CHMotusView * rightView=[[CHMotusView alloc]initWithFrame:CGRectMake(screen.bounds.size.width, screen.bounds.size.height, - setNewWidth, - setNewHeight)];
     [rightView setBackgroundColor:[UIColor greenColor]];
     [rightView setAlpha: setNewAlpha];
     rightView.userInteractionEnabled = TRUE;
 
-	CHMotusView * leftView=[[CHMotusView alloc]initWithFrame:CGRectMake(screen.bounds.origin.x, screen.bounds.size.height, setNewWidth, - 150)];
+	CHMotusView * leftView=[[CHMotusView alloc]initWithFrame:CGRectMake(screen.bounds.origin.x, screen.bounds.size.height, setNewWidth, - setNewHeight)];
     [leftView setBackgroundColor:[UIColor greenColor]];
     [leftView setAlpha: setNewAlpha];
     leftView.userInteractionEnabled = TRUE;

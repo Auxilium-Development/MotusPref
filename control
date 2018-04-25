@@ -1,7 +1,7 @@
 Package: com.simalary-midnightchips.auxiliumdevelopment.motus
 Name: Motus
 Depends: mobilesubstrate
-Version: 0.0.2
+Version: 0.0.3
 Architecture: iphoneos-arm
 Description: Easily oppen Control Center from the bottom corners of your iPhone X.
 Maintainer: Simalary (Chris Harper), MidnightChips
