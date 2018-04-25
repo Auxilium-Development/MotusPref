@@ -1,0 +1,14 @@
+
+\.DS_Store
+
+\.theos/_/DEBIAN/
+
+\.theos/_/Library/MobileSubstrate/DynamicLibraries/
+
+\.theos/_/Library/PreferenceBundles/Prefs\.bundle/
+
+\.theos/_/Library/PreferenceLoader/Preferences/
+
+\.theos/
+
+packages/
