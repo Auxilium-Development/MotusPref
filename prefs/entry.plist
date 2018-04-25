@@ -11,7 +11,7 @@
 		<key>detail</key>
 		<string>MotusPrefsRootListController</string>
 		<key>icon</key>
-		<string>icon2.png</string>
+		<string>icon.png</string>
 		<key>isController</key>
 		<true/>
 		<key>label</key>

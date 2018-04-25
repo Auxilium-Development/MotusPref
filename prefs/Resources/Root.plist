@@ -9,8 +9,8 @@
 						<string>PSStaticTextCell</string>
 					<key>height</key>
 						<string>128</string>
-					<key>label</key>
-						<string>icon.png</string>
+					<key>icon</key>
+						<string>banner.png</string>
 					<key>label</key>
 						<string></string>
 		</dict>
