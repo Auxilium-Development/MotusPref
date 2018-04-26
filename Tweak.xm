@@ -5,7 +5,6 @@
 //
 
 #import <objc/runtime.h>
-
 //Prefs
 #define PLIST_PATH @"/Users/midnightchip/Documents/Dev/MotusPref/prefs/entry.plist" //Change to your entry.plist path. Include file extension.
 
@@ -73,6 +72,14 @@ static void RespringDevice()
 //     }
 //     return NO;
 // }
+- (BOOL) gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer
+shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
+ if ([gestureRecognizer isKindOfClass:[CHMotusView class]]) {
+return YES;
+} else{
+     return NO;
+}
+}
 @end
 
 %hook SpringBoard

@@ -126,6 +126,17 @@
 
 		<dict>
 		<key>action</key>
+		<string>ContactsimTwitter</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+        <string>twitter.png</string>
+		<key>label</key>
+		<string>@simalary_ch</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
 		<string>ContactmeTwitter</string>
 		<key>cell</key>
 		<string>PSButtonCell</string>
@@ -133,6 +144,26 @@
         <string>twitter.png</string>
 		<key>label</key>
 		<string>@MidnightChip</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Without him I would be banging my head against a a keyboard</string>
+			<key>label</key>
+			<string>Special Thanks to:</string>
+		</dict>
+
+		<dict>
+		<key>action</key>
+		<string>LuciTwitter</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>icon</key>
+				<string>twitter.png</string>
+		<key>label</key>
+		<string>@Lucifers_Circle</string>
 		</dict>
 
 		<dict>
@@ -156,20 +187,33 @@
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>None of our products will be locked behind patreon</string>
 			<key>label</key>
-			<string>Preferences by</string>
+			<string>Support US! If you want, you know you don't have to :)</string>
 		</dict>
-
 		<dict>
 		<key>action</key>
-		<string>LuciTwitter</string>
+		<string>donate</string>
 		<key>cell</key>
 		<string>PSButtonCell</string>
-		<key>icon</key>
-        <string>twitter.png</string>
 		<key>label</key>
-		<string>@Lucifers_Circle</string>
+		<string>Buy us a Carbonated Drink or something.</string>
+		<key>icon</key>
+    <string>paypal.png</string>
 		</dict>
+		<dict>
+		<key>action</key>
+		<string>patreon</string>
+		<key>cell</key>
+		<string>PSButtonCell</string>
+		<key>label</key>
+		<string>Help pay for our server costs :)</string>
+		<key>icon</key>
+    <string>patreon.png</string>
+		</dict>
+
+
 
 	</array>
 	<key>title</key>
